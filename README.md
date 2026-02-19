@@ -3,8 +3,8 @@ This is a professional version of your README in English, optimized for GitHub. 
 
 This Business Intelligence application transforms raw e-commerce transactional data into actionable strategic insights. Built with Python, it allows stakeholders to analyze revenue trends, customer retention, and database health in real-time.
 🚀 [Access the Live Dashboard Here] (https://ecommerceanalyticsdashboard.streamlit.app/)
-🎯 Project Objective
 
+🎯 Project Objective
 The goal is to provide e-commerce managers with a 360º view of their operations, answering critical business questions:
 
     Which products drive 80% of my revenue? (Pareto Principle).
