@@ -1,5 +1,4 @@
 import numpy as np
-import random
 
 def fillm(df, mcolumn, auxcolumn, get_dummies=False):
     """_summary_
