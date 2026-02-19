@@ -2,6 +2,7 @@ This is a professional version of your README in English, optimized for GitHub. 
 📊 E-commerce Analytics Dashboard: From ETL to RFM Segmentation
 
 This Business Intelligence application transforms raw e-commerce transactional data into actionable strategic insights. Built with Python, it allows stakeholders to analyze revenue trends, customer retention, and database health in real-time.
+
 🚀 [Access the Live Dashboard Here] (https://ecommerceanalyticsdashboard.streamlit.app/)
 
 🎯 Project Objective
