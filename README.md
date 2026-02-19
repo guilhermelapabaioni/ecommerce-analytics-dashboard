@@ -1,84 +1,99 @@
-📊 E-commerce Analytics Dashboard: Do ETL à Segmentação RFM
+This is a professional version of your README in English, optimized for GitHub. It highlights your technical skills in data engineering, statistical analysis, and dashboard development.
+📊 E-commerce Analytics Dashboard: From ETL to RFM Segmentation
 
-Este projeto é uma aplicação de Business Intelligence desenvolvida em Python que transforma dados brutos de transações de um e-commerce em insights estratégicos. A ferramenta permite analisar o faturamento, a retenção de clientes e a saúde da base de produtos em tempo real.
-🚀 [Acesse o Dashboard Online Aqui] (Link do seu Streamlit Cloud)
-🎯 Objetivo do Projeto
+This Business Intelligence application transforms raw e-commerce transactional data into actionable strategic insights. Built with Python, it allows stakeholders to analyze revenue trends, customer retention, and database health in real-time.
+🎯 Project Objective
 
-O objetivo principal é fornecer a um gestor de e-commerce uma visão 360º da operação, respondendo a perguntas como:
+The goal is to provide e-commerce managers with a 360º view of their operations, answering critical business questions:
 
-    Quais produtos geram 80% do faturamento? (Pareto)
+    Which products drive 80% of my revenue? (Pareto Principle).
 
-    Qual é a taxa de retorno dos clientes mês a mês? (Cohort)
+    What is the customer retention rate month-over-month? (Cohort Analysis).
 
-    Quem são os nossos melhores clientes e quem estamos prestes a perder? (RFM)
+    Who are my best customers, and who am I about to lose? (RFM Segmentation).
 
-🛠️ Tecnologias e Metodologias
+🛠️ Tech Stack & Methodologies
 
-    Linguagem: Python 3.x
+    Language: Python 3.x.
 
-    Interface: Streamlit (Web App)
+    Interface: Streamlit (Web App).
 
-    Processamento de Dados: Pandas e NumPy
+    Data Processing: Pandas and NumPy.
 
-    Visualização: Plotly Express e Plotly Graph Objects
+    Visualization: Plotly Express and Plotly Graph Objects.
 
-    Metodologias de Negócio:
+    Performance: Optimized with @st.cache_data to ensure fluid data loading.
 
-        RFM (Recency, Frequency, Monetary): Segmentação comportamental de clientes.
+    Business Methodologies:
 
-        Análise de Cohort: Estudo de retenção por safra de entrada.
+        RFM (Recency, Frequency, Monetary): Behavioral customer segmentation.
 
-        Princípio de Pareto (80/20): Identificação de produtos críticos para a receita.
+        Cohort Analysis: Retention study by acquisition "vintage".
 
-📋 Funcionalidades Principais
-1. Visão Geral e Sazonalidade
+        Pareto Analysis (80/20): Identification of critical products for revenue.
 
-    KPIs em Tempo Real: Faturamento, Total de Pedidos, Ticket Médio e Clientes Únicos que reagem aos filtros de País e Ano.
+📋 Key Features
+1. Dynamic KPIs & Seasonality
 
-    Comparativo Anual: Gráfico de linhas comparando o desempenho mensal entre os anos selecionados.
+    Real-time Metrics: Revenue, Unique Orders (using nunique), Average Ticket, and Unique Customers that react instantly to Sidebar filters.
 
-2. Análise de Pareto (Produtos)
+    Yearly Comparison: A comparative line chart showing monthly sales performance across selected years.
+   <img width="1499" height="566" alt="image" src="https://github.com/user-attachments/assets/a7eb940c-e781-4063-880e-707cf6c8e872" />
 
-    Identificação visual dos "produtos estrela". O gráfico combina barras de vendas individuais com uma linha de percentual acumulado, permitindo focar no estoque e marketing do que realmente importa.
+3. Pareto Analysis (Product Health)
 
-3. Análise de Cohort (Retenção)
+    Identification of "Star Products." The chart combines individual sales bars with a cumulative percentage line, allowing focus on inventory and marketing for high-impact items.
+    <img width="1507" height="436" alt="image" src="https://github.com/user-attachments/assets/6908a241-44c3-4705-b4f6-6bbcffdc09cd" />
 
-    Mapa de calor que rastreia grupos de clientes desde sua primeira compra. Essencial para medir a fidelidade e identificar em qual mês a retenção costuma cair.
+4. Cohort Analysis (Retention)
 
-4. Segmentação RFM
+    A heatmap tracking customer groups from their first purchase month. This is essential for measuring loyalty and identifying the specific month where churn typically increases.
+    <img width="1480" height="564" alt="image" src="https://github.com/user-attachments/assets/cc1d47fd-042f-4e71-b731-ce86b281a447" />
 
-    Treemap Interativo: Visualização da distribuição da base de clientes entre segmentos como "Campeões", "Leais", "Em Risco" e "Hibernando".
+5. RFM Segmentation
 
-    Exportação de Dados: Tabela detalhada por segmento com opção de download para ações de marketing direto.
+    Interactive Treemap: Visualizes the distribution of the customer base into segments such as "Champions," "Loyal," "At Risk," and "Hibernating".
+    <img width="1498" height="356" alt="image" src="https://github.com/user-attachments/assets/cdb492ce-0b79-46d8-a593-f9716dd3a45f" />
 
-📁 Estrutura do Repositório
+    Actionable Data: Includes a detailed table per segment with the ability to view specific customer IDs for targeted marketing campaigns.
+    <img width="1508" height="605" alt="image" src="https://github.com/user-attachments/assets/63bf9cab-936a-4664-b291-97d4aa33aa98" />
+
+📁 Repository Structure
 Plaintext
 
-├── data/               # Arquivo de dados (CSV)
-├── functions/          # Funções modulares de Limpeza e Wrangling
-│   ├── cleaning.py     # Tratamento de nulos e tipos de dados
-│   └── wrangling.py    # Cálculos de datas e transformações
-├── app.py              # Arquivo principal do Streamlit
-├── requirements.txt    # Dependências do projeto
-└── README.md           # Documentação
+├── data/               # CSV data storage
+├── functions/          # Modular ETL functions
+│   ├── cleaning.py     # Data cleaning and type conversion
+│   └── wrangling.py    # Date calculations and transformations
+├── app.py              # Main Streamlit application
+├── requirements.txt    # Project dependencies
+└── README.md           # Documentation
 
-⚙️ Como executar localmente
+⚙️ How to Run Locally
 
-    Clone o repositório:
+    Clone the repository:
     Bash
 
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/your-username/your-repo-name.git
 
-    Instale as dependências:
+    Install dependencies:
     Bash
 
     pip install -r requirements.txt
 
-    Execute o Streamlit:
+    Run the App:
     Bash
 
     streamlit run app.py
 
-Desenvolvido por Guilherme Lapa Baioni
+💡 Key Business Insights
 
-    https://www.linkedin.com/in/guilhermelapabaioni/
+    Revenue Concentration: 20% of StockCodes account for the vast majority of total sales.
+
+    Retention Trends: The Cohort matrix reveals the "decay" rate of new customers, providing a baseline for re-engagement strategies.
+
+    Customer Health: Segmenting by RFM identifies "At Risk" customers who haven't purchased recently but were historically high-value.
+
+Developed by Guilherme Lapa Baioni
+
+    [LinkedIn] https://www.linkedin.com/in/guilhermelapabaioni/)
