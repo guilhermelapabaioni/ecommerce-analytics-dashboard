@@ -81,4 +81,4 @@ Plaintext
 
 Desenvolvido por Guilherme Lapa Baioni
 
-    [LinkedIn] https://www.linkedin.com/in/guilhermelapabaioni/
+    https://www.linkedin.com/in/guilhermelapabaioni/
