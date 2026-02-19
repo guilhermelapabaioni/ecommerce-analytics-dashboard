@@ -1,7 +1,5 @@
 pandas
 numpy
 plotly
-plotly.express
-plotly.graph_objects
 plotly.subplots
 streamlit>=1.23.0
