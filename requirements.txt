@@ -5,3 +5,4 @@ plotly.express
 plotly.graph_objects
 plotly.subplots
 streamlit>=1.23.0
+python.exe -m pip install --upgrade pip
