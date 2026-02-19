@@ -1,5 +1,4 @@
 pandas
 numpy
 plotly
-plotly.subplots
 streamlit>=1.23.0
